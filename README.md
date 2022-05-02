@@ -8,9 +8,9 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment pictured above. Alternatively, select playbook file(s) may be used to install only certain pieces of it, such as Filebeat or Metricbeat.
 
-[Install ELK playbook](https://github.com/mbwaddell/cyber-bootcamp/blob/main/Ansible/install-elk.yml)
-[Filebeat playbook](https://github.com/mbwaddell/cyber-bootcamp/blob/main/Ansible/filebeat-playbook.yml)
-[Metricbeat playbook](https://github.com/mbwaddell/cyber-bootcamp/blob/main/Ansible/metricbeat-playbook.yml)
+[Install ELK playbook](https://github.com/mbwaddell/cyber-bootcamp/blob/main/Ansible/install-elk.yml)  
+[Filebeat playbook](https://github.com/mbwaddell/cyber-bootcamp/blob/main/Ansible/filebeat-playbook.yml)  
+[Metricbeat playbook](https://github.com/mbwaddell/cyber-bootcamp/blob/main/Ansible/metricbeat-playbook.yml)  
 
 This document contains the following details:
 - Description of the Topology
