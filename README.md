@@ -26,8 +26,8 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly redundant, in addition to restricting access to the network.
-The redundancy provided by the load balancer helps protect the Availability of the DVWA web service. The jump box increases security by providing a secure computer from which system admins can launch adminsitrative tasks or connect to other servers or untrusted environments.
-    Source: https://www.csoonline.com/article/2612700/security-jump-boxes-improve-security-if-you-set-them-up-right.html
+The redundancy provided by the load balancer helps protect the Availability of the DVWA web service. The jump box increases security by providing a secure computer from which system admins can launch adminsitrative tasks or connect to other servers or untrusted environments.  
+Source: https://www.csoonline.com/article/2612700/security-jump-boxes-improve-security-if-you-set-them-up-right.html
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system metrics.
 Filebeat provides a simple lightweight means to forward and centralize logs and files and track changes to them.
@@ -70,7 +70,7 @@ The playbook implements the following tasks:
 - Configures the port mappings the container will use for the ELK stack
 - Starts the container and configures the Docker service to restart automatically when the VM is rebooted.
 
-The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance:
 
 [ELK container running](https://github.com/mbwaddell/cyber-bootcamp/blob/main/Images/ELK%20container%20running.png)
 
@@ -82,7 +82,7 @@ We have installed the following Beats on these machines:
 Filebeat and Metricbeat
 
 These Beats allow us to collect the following information from each machine:
-- Filebeat allows collection and aggreagation of logs from various clients, hosts, containers, cloud resources, etc.  Once aggregated, search   logs by service, app, host, or other criteria to track curious behavior.
+- Filebeat allows collection and aggregation of logs from various clients, hosts, containers, cloud resources, etc.  Once aggregated, search   logs by service, app, host, or other criteria to track curious behavior.
 - Metricbeat allows monitoring of system metrics and top-like statistics for processes on hosts to detect signs of unusual activity.
 
 ### Using the Playbook
